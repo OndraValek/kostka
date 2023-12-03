@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Kostka</title>
+        <style>
+           body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #diceContainer {
+            display: flex;
+            margin-bottom: 20px; /* Přidáme mezeru mezi kostkami */
+        }
+
+        #dice1, #dice2 {
+            width: 100px;
+            margin-right: 10px;
+        }
+        </style>
+
+        
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <div id="diceContainer">
+            <img id="dice1" src="" alt="Dice 1">
+            <img id="dice2" src="" alt="Dice 2">
+        </div>
+        <div id="result"></div>
+        <button id="rollDice1">Hodit kostkou 1</button>
+        <button id="rollDice2">Hodit kostkou 2</button>
+        <!--
+        <h1 class="text-center">Kostka</h1>
+        <div class="container">
+            <figure>
+                <img id="dice" src="img/kostka6.png" alt="Kostka">
+            </figure>
+            <div id="result">Výsledek</div>
+            <button id="play">Hraj</button>
+        </div>
+        -->
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/dice2.js"></script>
+    </body>
+</html>
